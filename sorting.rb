@@ -1,4 +1,7 @@
 class Sorter
+
+  attr_accessor :data
+
   def initialize()
     @data = generateRandomData
   end
